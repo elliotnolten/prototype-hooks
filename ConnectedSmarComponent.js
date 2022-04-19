@@ -1,3 +1,5 @@
+import*as React from"react"
+
 export function useConnectedSmartComponent(
     listItem: React.ReactNode
 ): [React.ReactElement | null, React.ReactElement | null] {
